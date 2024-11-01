@@ -13,7 +13,19 @@ CHALLENGE
 - If the password is less than 5 characters, log out "Your password is too short!".
 */
 
+/* 
+thought process:
+- need to create a function that compares the the parameters "password and userInput"
+- talk it out in your mind and type out the code
+- code password match using "==="
+- code an else if the password does not match 
+- use seperate "if" to code userInput === "forgot" and log out the message
+- use seperate "if" to code userInput === "reset" and log out the message 
 
+challenge 
+- if password === "forgot" // <- (or) "reset" . Not sure what if we need "access granted" in code then log out message 
+- password < 5 then log out message 
+*/ 
 function passwordCheck(password, userInput){
     if (userInput === password){
     console.log("Access Granted!")
